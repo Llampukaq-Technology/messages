@@ -1,25 +1,36 @@
 {
-  "name": "messages",
-  "version": "0.1.0",
-  "private": true,
+  "name": "@llampukaq/messages",
+  "version": "0.1.02",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": {
+    "email": "llampukaq@llampukaq.com",
+    "name": "Llampukaq technology",
+    "url": "https://www.llampukaq.com/"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "npx tsc -p tsconfig-components.json"
   },
   "dependencies": {
+    "next": "14.1.0",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.1.0"
+    "react-toastify": "^10.0.4"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "autoprefixer": "^10.0.1",
     "postcss": "^8",
-    "tailwindcss": "^3.3.0"
-  }
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5"
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "postcss.config.js",
+  "license": "Apache-2.0"
 }
