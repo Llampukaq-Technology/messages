@@ -1,7 +1,9 @@
 {
   "name": "@llampukaq/messages",
-  "version": "0.1.02",
+  "version": "0.1.03",
   "private": false,
+  "main": "dist/messages/index.js",
+  "typings": "dist/messages/index.d.ts",
   "publishConfig": {
     "access": "public"
   },
@@ -30,7 +32,5 @@
     "tailwindcss": "^3.3.0",
     "typescript": "^5"
   },
-  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
-  "main": "postcss.config.js",
   "license": "Apache-2.0"
 }
