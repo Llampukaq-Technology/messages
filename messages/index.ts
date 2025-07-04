@@ -1,4 +1,4 @@
-import { MessageProvider } from "./message/MessageProvider";
-import useMessage from "./message/useMessage";
+import { MessageProvider } from "./MessageProvider";
+import useMessage from "./useMessage";
 
 export { MessageProvider, useMessage };

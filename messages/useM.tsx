@@ -3,7 +3,7 @@ import {
   notifyError,
   notifySuccess,
   notifyWarning,
-} from "./messages/TypeMessage";
+} from "./types/TypeMessage";
 import { toast } from "react-toastify";
 
 export interface MessageProps {

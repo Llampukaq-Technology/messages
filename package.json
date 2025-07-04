@@ -1,6 +1,6 @@
 {
   "name": "@llampukaq/messages",
-  "version": "0.1.03",
+  "version": "0.1.05",
   "private": false,
   "main": "dist/messages/index.js",
   "typings": "dist/messages/index.d.ts",
